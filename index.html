@@ -6,13 +6,19 @@
     <title>[REDACTED] Art Studio</title>
     <style>
            header {
-        background-image: url("headerbackground.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+		color: white;
+		background-image: url("headerbackground.png");
+        	background-repeat: no-repeat;
+	        background-size: cover;
+     		background-position: center;
+		height: 200px; /* Sets a fixed height for the header */
+        	padding: 100px; /* Adds space inside the header */
+        	box-sizing: border-box; /* Ensures padding is included in the height */
+    }
     }
         body {
-            font-family: Arial, sans-serif;
+        color: black;
+	     font-family: Arial, sans-serif;
         }
 	.short-line {
             width: 50%;
@@ -20,11 +26,15 @@
         .long-line {
             width: 800px;
         }
-    </style>
+	{
+        margin: 0; /* Removes default margin from the body */
+    }
+
+     </style>
 </head>
 <header>
 	<h1>[REDACTED] Art Studio Site</h1>
-<header>
+</header>
 <body>
 
 	<br>
